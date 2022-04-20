@@ -13,6 +13,8 @@ public class OutputFormatting {
             String s1 = sc.next();
             int x = sc.nextInt();
 
+            // -15 is for left align of the String and having max 15 characters limit
+            // 03 is for 3-digit number and padding 0 for 2 and 1-digit number
             System.out.printf("%-15s%03d%n", s1, x);
         }
         System.out.println("================================");
